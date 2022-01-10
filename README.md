@@ -71,5 +71,6 @@ Refactoring code is a double edge sword. On the positive side of things you've g
 
 # Thoughts on Refactoring VBA Script
 Similarly to what I have posted above there are a variety of pros and cons. The diffence between code and VBA script is that I had the pleasure to refactor VBA Script. The upside was that the macro happened in 0.2 seconds in comparison to the full second it took prior to the refactoring. While this is faster and less clunky showing up onto the excel sheet, it had taken me much longer than .8 seconds to refactor the entire thing. As long is it would have provided the same information and made sense in the coding process, then I don't know how worth the time invested would be. Here are my two successful images of the macro speed. 
+
 ![2017 analysis](https://user-images.githubusercontent.com/95777297/148745374-25a5da34-e598-430c-8117-b5d4d44350c9.png)
 ![2018 analysis](https://user-images.githubusercontent.com/95777297/148745382-8a7b5de7-267e-4f10-8c44-39a826bd474f.png)
