@@ -12,7 +12,7 @@ The data given to me provided information on 12 different stocks. The informatio
 ## Results
 
 ### Analysis
-Prior to refactoring any code, I created a rough draft on Notepad ++. This rough draft featured code that would create the input box, chart headers, create loops, and activate on the correct worksheet with accurate formatting. Here is what was created: 
+Prior to refactoring any code, I created a rough draft on Notepad ++. This rough draft featured code that would create the input box, chart headers, create loops, and activate on the correct worksheet with accurate formatting.Here is what was created: 
 >     '1a) Create a ticker Index
     tickerIndex = 0
 
@@ -63,3 +63,13 @@ Prior to refactoring any code, I created a rough draft on Notepad ++. This rough
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
+    
+## Summary 
+
+# Thoughts on Refactoring Code
+Refactoring code is a double edge sword. On the positive side of things you've got the ability to make code cleaner and easier to understand. Not to mention the speed increase to the performance the code. By creating a more efficent piece of code you open up more opportunities such as software improvement, added functionality, and easier debugging instances if needed. That positive side of the coin comes at a cost. This cost being human error. By starting to try to slim code down you open up the possibilities of making mistakes and throwing things out of wack. In which case if you make that mistake then you've got to go through the debugging process and start all over which wastes time. 
+
+# Thoughts on Refactoring VBA Script
+Similarly to what I have posted above there are a variety of pros and cons. The diffence between code and VBA script is that I had the pleasure to refactor VBA Script. The upside was that the macro happened in 0.2 seconds in comparison to the full second it took prior to the refactoring. While this is faster and less clunky showing up onto the excel sheet, it had taken me much longer than .8 seconds to refactor the entire thing. As long is it would have provided the same information and made sense in the coding process, then I don't know how worth the time invested would be. Here are my two successful images of the macro speed. 
+![This is an image](https://gyazo.com/a6010c093f18b33dc6421361226d1340)
+![This is an image](https://gyazo.com/067fe32225f50cf21c6421367b160d09)
